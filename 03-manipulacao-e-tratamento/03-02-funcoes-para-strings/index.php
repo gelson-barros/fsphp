@@ -10,6 +10,7 @@ $string = "O último show do AC/DC foi incrível!";
 var_dump([
     "string"=>$string,
     "strlen"=>strlen($string),
+    
     ]);
 /**
  * [ conversão de caixa ] https://php.net/manual/en/function.mb-convert-case.php

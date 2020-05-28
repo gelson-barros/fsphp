@@ -1,0 +1,52 @@
+<?php
+echo date_default_timezone_get();
+echo "<br>";
+echo date(DATE_W3C);/** tem varias constante DATE_ATOM */
+echo "<br>";
+echo  date("d-m/Y H:i:s");
+echo "<br>";
+//--------------------------------------------------------------------------
+echo "criar as tuas constantes padrão da date da tua localidade";
+echo "<br>";
+define("DATE_AO", "d/m/Y H:i:s");
+//define("DATE_TIMEZONE", "Pacific/Apia");
+define("DATE_TIMEZONE", "Africa/Luanda");
+echo "------------------------------------------------------------------------";
+echo "<br>";
+date_default_timezone_set(DATE_TIMEZONE);
+echo date_default_timezone_get();
+echo "<br>";
+echo date(DATE_AO);
+echo "<br>";
+var_dump(getdate());// ter o tratamento de te tempo
+echo "<br>";
+echo "Hoje é dia ", getdate()['mday'],"!";
+echo "<br>";
+echo "Mês ", getdate()['mon'];
+echo "<br>";
+echo "Ano ", getdate()['year'];
+echo "<br>";
+echo "--------------------------------------------------------------------------";
+echo "<br>";
+echo "strtotime(string to time)";
+echo "<br>";
+echo strtotime("now");
+echo "<br>";
+echo time();
+echo "<br>";
+echo "+10days: ",strtotime("+10days");
+echo "<br>";
+echo "-10days: ",strtotime("-10days");
+echo "<br>";
+echo "-1year :",strtotime("-1year");
+echo "<br>";
+echo "menos um ano: ",date(DATE_AO,strtotime("+1year"));
+echo "<br>";
+echo "mais um dia: ",date(DATE_AO,strtotime("+1days"));
+echo "<br>";
+echo "strftime(string format time)";
+echo "<br>";
+$format = "%d/%m/%Y %Hh%M minutos";
+echo "", strftime($format);
+echo "<br>";
+echo strftime("Hoje é dia %d de %m de %Y às %H horas e %M minutos");

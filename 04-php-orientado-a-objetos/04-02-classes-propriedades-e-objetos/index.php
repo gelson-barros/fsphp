@@ -6,7 +6,7 @@ fullStackPHPClassName("04.02 - Classes, propriedades e objetos");
  * [ classe e objeto ] http://php.net/manual/pt_BR/language.oop5.basic.php
  */
 fullStackPHPClassSession("classe e objeto", __LINE__);
-
+ 
 
 /*
  * [ propriedades ] http://php.net/manual/pt_BR/language.oop5.properties.php

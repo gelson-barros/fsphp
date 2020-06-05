@@ -42,7 +42,7 @@ ser incluidas globalmente.
 /*
 Trechos de codigos que serão 
 reutilizados no projecto, como
-headers, sidebars e footrs
+headers, sidebars e footers
 */
 
 ?>

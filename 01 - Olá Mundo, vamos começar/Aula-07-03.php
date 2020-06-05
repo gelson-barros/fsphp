@@ -9,7 +9,7 @@ O nome da classe deve ser declarada em Studlycaps
 
 /Constantes da classe devem ser declaradas em maiusculas e quando preciso podem ser separadas por under_score.
 
-/Propriedades da classe podem ser escritas em $StudlyCaps, $CamelCase ou $under_score, nao existe uma recomendação rigida para elas, mas é sempre importante escolher uma e uasr sempre a mesma. Se for $camelCase, use sempre $camelCase e nunca as outras.
+/Propriedades da classe podem ser escritas em $StudlyCaps, $CamelCase ou $under_score, nao existe uma recomendação rigida para elas, mas é sempre importante escolher uma e usar sempre a mesma. Se for $camelCase, use sempre $camelCase e nunca as outras.
 
 /Métodos da Classe devem ser declarados sempre em camelCase()
 

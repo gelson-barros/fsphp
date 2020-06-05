@@ -1,0 +1,26 @@
+{
+    "name": "up-inside/fsphp",
+    "description": "Full Stack PHP Developer",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Robson V. Leite",
+            "email": "cursos@upinside.com.br",
+            "homepage": "https://upinside.com.br",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-lib": "vendor"
+    },
+    "require":{
+        "phpmailer/phpmailer": "~6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        }
+    }
+}

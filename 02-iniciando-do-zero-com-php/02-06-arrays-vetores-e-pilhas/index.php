@@ -30,7 +30,7 @@ $arrayAssoc = [
 	"vocal" => "Brian",
 	"solo_guitar" => "Angus",
 	"base_guitar" => "Malcolm",
-	"bass_guitar" => "Cliff"
+	"bass_guitar" => "Cliff",
 
 ];
 $arrayAssoc ["drums"] = "Phil";/*acrescentado o key e valor */
